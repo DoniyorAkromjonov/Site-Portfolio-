@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Портфолио — Акромжонов Дониёр</title>
+  <meta name="description" content="Личное портфолио: проекты, опыт, навыки и контакты. Лёгкий, быстрый и адаптивный сайт.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="На главную" title="На главную">
+        <img src="img/logo.jpg" alt="" width="28" height="28" aria-hidden="true">
+        <span class="brand-title">Акромжонов Дониёр</span>
+      </a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Открыть меню">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+        <ul id="nav-list">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#experience">Опыт</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4a1 1 0 0 1 1-1h0a1 1 0 1 1-2 0h0a1 1 0 0 1 1 1Zm0 17a1 1 0 0 1 1 1h0a1 1 0 1 1-2 0h0a1 1 0 0 1 1-1ZM4 12a1 1 0 0 1-1-1h0a1 1 0 1 1 0 2h0a1 1 0 0 1 1-1Zm17 0a1 1 0 0 1 1-1h0a1 1 0 1 1 0 2h0a1 1 0 0 1-1-1ZM6.2 6.2a1 1 0 0 1 1.4-1.4h0a1 1 0 1 1-1.4 1.4Zm10.2 10.2a1 1 0 0 1 1.4 1.4h0a1 1 0 1 1-1.4-1.4ZM17.8 6.2a1 1 0 0 1 1.4-1.4h0a1 1 0 1 1-1.4 1.4ZM6.4 17.8a1 1 0 0 1-1.4 1.4h0a1 1 0 1 1 1.4-1.4ZM12 8.5A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5Z"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Frontend · Backend</p>
+          <h1>Привет! Я <span class="accent">Акромжонов Дониёр</span>.</h1>
+          <p class="lead">Я Backend разработчик а так же изучаю Frontend</p>
+
+          <div class="cta">
+            <a class="btn primary" href="#projects">Смотреть проекты</a>
+            <a class="btn" href="#contact">Мои контакты</a>
+          </div>
+
+          <ul class="badges" aria-label="Ключевые навыки">
+            <li>HTML5</li><li>CSS3</li><li>Python</li><li>Java</li><li>Golang</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="avatar">
+            <img src="img/img1.jpg" alt="photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Обо мне</h2>
+          <p>Я Backend и становлюсь Frontend разработчиком. Делаю много проектов на Python: Телеграм боты, Программы, Расширения и начал изучать делать сайты</p>
+          <ul class="list-plain facts">
+            <li><span>Город:</span> Ташкент</li>
+            <li><span>E‑mail:</span> <a href="mailto:akromjonovdoniyor13@gmail.com">akromjonovdoniyor13@gmail.com</a></li>
+            <li><span>Telegram:</span> <a href="https://t.me/rreeyydd" target="_blank" rel="noreferrer">@rreeyydd</a></li>
+            <li><span>GitHub:</span> <a href="https://github.com/DoniyorAkromjonov" target="_blank" rel="noreferrer">github.com/DoniyorAkromjonov</a></li>
+          </ul>
+        </div>
+        <aside class="callout">
+          <h3>Чем могу помочь</h3>
+          <ul>
+            <li>Телеграм боты с хорошим функционалом</li>
+            <li>Простые программы которые упрощают и помогают в чём то</li>
+            <li>Парсить сайты(Доставать оттуда информации)</li>
+            <li>Написать простые сайты</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Проекты</h2>
+        <p class="muted">Ниже пример карточек. Замените ссылки на свои демо и репозитории.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-cover">
+              <img src="img/project1.png" alt="Скриншот проекта StartupConnection">
+            </div>
+            <div class="card-body">
+              <h3>StartupConnection</h3>
+              <ul class="tags"><li>Python</li><li>HTML</li><li>CSS</li><li>JS</li></ul>
+              <div class="card-actions">
+                <p>Проект который помогает находить нужных людей(Инвесторы, Разработчик, тд) начальным Старт апам</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="img/project2.png" alt="Скриншот проекта Desktop Manager">
+            </div>
+            <div class="card-body">
+              <h3>Desktop Manager</h3>
+              <ul class="tags"><li>Python</li><li>PyQT5</li></ul>
+              <p>Программа которая запускается при вкл. компьютера и открывает вам нужные программы и сайты</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="img/project3.png" alt="Скриншот проекта Choyxona Parser">
+            </div>
+            <div class="card-body">
+              <h3>Choyxona Parser</h3>
+              <ul class="tags"><li>Python</li><li>Json</li></ul>
+              <p>Проект который получает из сайтов нужную информацию для дальнейго использования</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="img/project4.jpg" alt="Скриншот проекта AIMentor">
+            </div>
+            <div class="card-body">
+              <h3>AIMentor</h3>
+              <ul class="tags"><li>Python</li><li>Tg bot</li><li>TelebotAPI</li></ul>
+              <p>Проект который помогает вам научится кодить постепенно в день уделяя 5-10 минут</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="img/project5.png" alt="Скриншот проекта Tashnews">
+            </div>
+            <div class="card-body">
+              <h3>Tashnews</h3>
+              <ul class="tags"><li>Python</li><li>Tg bot</li><li>TelebotAPI</li></ul>
+              <p>Проект который ищет новости Ташкента по каналам и переписывает новости</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="img/project6.png" alt="Скриншот проекта Channel information">
+            </div>
+            <div class="card-body">
+              <h3>Channel information</h3>
+              <ul class="tags"><li>Python</li><li>Tgstat</li><li>Tg bot</li></ul>
+              <p>Проект который предоставит вам каналы по вашей нужде</p>
+            </div>
+          </article>
+
+          <h3 style="text-align: center;">Ещё много проектов законченные и которые в процессе!</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Опыт</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-point" aria-hidden="true"></div>
+            <div class="timeline-content">      
+              <h3>Участник Старт апа "Choyxona start up"</h3>
+              <div class="meta">Май 2025 — До сих пор · Учстник</div>
+              <ul>
+                <li>Поддержка парсера</li>
+                <li>Python mid dev</li>
+                <li>Стажёр</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-point" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Стажёр в Пиар Компании</h3>
+              <div class="meta">Июнь 2025 — Октябрь 2025</div>
+              <ul>
+                <li>Упрощение дел менежеров(автоматизация процессов)</li>
+                <li>Менежер мероприятий</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Навыки</h2>
+        <div class="skills">
+          <div>
+            <h3>Языки</h3>
+            <ul class="badges"><li>Python</li><li>Golang</li><li>Java</li><li>C++</li></ul>
+          </div>
+          <div>
+            <h3>Фреймворки</h3>
+            <ul class="badges"><li>FastAPI</li><li>PyQT5</li><li>SpringBoot</li><li>Selenium</li></ul>
+          </div>
+          <div>
+            <h3>Инструменты</h3>
+            <ul class="badges"><li>Git</li><li>GitHub</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Контакты</h2>
+          <p>Готов обсудить сотрудничество, фриланс и интересные задачи. Пишите удобным способом — отвечу быстро.</p>
+
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-title">E‑mail</div>
+              <a class="contact-link" href="mailto:akromjonovdoniyor13@gmail.com" id="emailLink">akromjonovdoniyor13@gmail.com</a>
+              <button class="btn small" id="copyEmail" data-email="akromjonovdoniyor13@gmail.com">Скопировать</button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-title">Telegram</div>
+              <a class="contact-link" href="https://t.me/rreeyydd" target="_blank" rel="noreferrer">@rreeyydd</a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-title">GitHub</div>
+              <a class="contact-link" href="https://github.com/DoniyorAkromjonov" target="_blank" rel="noreferrer">github.com/DoniyorAkromjonov</a>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" aria-labelledby="contact-form-title">
+          <h3 id="contact-form-title">Быстрое сообщение</h3>
+          <label>Ваше имя
+            <input name="name" type="text" placeholder="Как к вам обращаться?" autocomplete="name" required>
+          </label>
+          <label>E‑mail
+            <input name="email" type="email" placeholder="name@example.com" autocomplete="email" required>
+          </label>
+          <label>Сообщение
+            <textarea name="message" rows="5" placeholder="Коротко опишите задачу..." required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Отправить</button>
+          <p class="form-hint muted">Форма откроет ваш почтовый клиент (mailto). Можно просто написать на <a href="mailto:akromjonovdoniyor13@gmail.com">akromjonovdoniyor13@gmail.com</a>.</p>
+          <div id="status" class="sr-only" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <ul class="social">
+        <li><a href="https://github.com/DoniyorAkromjonov" aria-label="GitHub" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.93c.58.11.8-.25.8-.56v-2.02c-3.2.7-3.87-1.37-3.87-1.37-.53-1.36-1.3-1.73-1.3-1.73-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.27 1.2-3.07-.12-.29-.52-1.46.11-3.05 0 0 .98-.31 3.2 1.17a11.02 11.02 0 0 1 5.83 0c2.22-1.48 3.2-1.17 3.2-1.17.63 1.59.24 2.76.12 3.05.75.8 1.2 1.82 1.2 3.07 0 4.41-2.69 5.39-5.26 5.67.42.36.8 1.06.8 2.14v3.18c0 .31.21.68.81.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+        </a></li>
+        <li><a href="https://t.me/rreeyydd" aria-label="Telegram" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.96 15.56 9.8 19.3c.31 0 .45-.13.62-.28l1.49-1.42 3.09 2.27c.57.31.98.15 1.14-.53l2.07-9.75.01-.01c.18-.82-.3-1.14-.86-.94L3.68 11.22c-.82.32-.8.78-.14.99l3.5 1.09 8.14-5.14c.38-.23.73-.1.44.15"/></svg>
+        </a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -609,3 +609,81 @@ h3 {
   border-radius: .6rem;
   background: var(--card);
 }
+
+/*  ---------------------------------------------------------- */
+
+.hobbies {
+    background: #111;
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    margin-left: 75px;
+}
+
+.hobbies h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+}
+
+.hobby-category {
+    margin-bottom: 30px;
+    margin-left: 75px;
+}
+
+.hobby-category h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 75px;
+}
+
+.tags span {
+    background: #222;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 0.2s;
+    
+}
+
+.tags span:hover {
+    background: #333;
+ 
+}
+
+.achievements {
+    margin-top: 35px;
+    margin-left: 75px;
+}
+
+.achievements h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievements li {
+    margin-bottom: 8px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.achievements li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #888;
+}
